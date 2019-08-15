@@ -1,0 +1,85 @@
+{
+  "screen_center": {
+    "x": 540,
+    "y": 1080,
+    "rx": 0,
+    "ry": 1000,
+    "desc": "屏幕中点坐标，滑动屏幕时用"
+  },
+  "menu_contact": {
+    "x": 397,
+    "y": 2073,
+    "rx": 10,
+    "ry": 10,
+    "desc": "底部菜单【通讯录】"
+  },
+  "list_init_swipe": {
+    "x": 540,
+    "y": 1080,
+    "rx": 0,
+    "ry": -615,
+    "delay": 2000,
+    "desc": "首次滑动朋友圈的距离"
+  },
+  "first_contacter": {
+    "x": 500,
+    "y": 975,
+    "rx": 100,
+    "ry": 0,
+    "desc": "好友列表第一个联系人的坐标"
+  },
+
+  "final_contacter_name": {
+    "name": "猫咪没有了",
+    "desc": "好友列表最后一位在列表显示的名称，如果有特殊字符可，可自行备注进行区分哦~"
+  },
+  "main_activity": {
+    "name": "com.tencent.mm/com.tencent.mm.ui.LauncherUI",
+    "desc": "微信的主页activity"
+  },
+  "friend_card": {
+    "name": "com.tencent.mm/com.tencent.mm.plugin.profile.ui.ContactInfoUI",
+    "desc": "好友信息卡片页面"
+  },
+  "friend_sns": {
+    "name": "com.tencent.mm/com.tencent.mm.plugin.sns.ui.SnsUserUI",
+    "desc": "好友朋友圈"
+  },
+  "friend_remark": {
+    "name": "com.tencent.mm/com.tencent.mm.ui.contact.ContactRemarkInfoModUI",
+    "desc": "好友设置备注和标签的页面"
+  },
+
+  "friend_sns_img_region": {
+    "left": 0,
+    "top": 730,
+    "right": 1080,
+    "bottom": 2160,
+    "desc": "截取好友朋友圈的指定区域，尽量不把背景图片截屏进去，文字识别时尽量不识别背景图片中的文字"
+  },
+
+  "delay": {
+    "value": "0.5",
+    "desc": "模拟操作之间的间隔时间"
+  },
+  "retry": {
+    "value": 10,
+    "desc": "在各种操作中的重试次数"
+  },
+  "is_debug":{
+    "value": 1,
+    "desc":"当值为1时是调试模式输入一些数据，为0屏蔽"
+  },
+  "friend_list_row_margin": {
+    "value": 160,
+    "desc": "好友列表中行之间的间距"
+  },
+  "sns_swipe_num": {
+    "value": 4,
+    "desc": "朋友圈的滑动次数"
+  },
+  "button_more_to_sns_dist": {
+    "value": 135,
+    "desc": "好友卡片上‘更多信息’到‘朋友圈’的距离，判断朋友圈按钮的坐标需用到"
+  }
+}

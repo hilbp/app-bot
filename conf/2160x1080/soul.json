@@ -1,0 +1,78 @@
+{
+  "center_point": {
+    "x": 540,
+    "y": 1080,
+    "rx": 10,
+    "ry": 300,
+    "desc": "用于翻页"
+  },
+  "menu_star": {
+    "x": 107,
+    "y": 2075,
+    "rx": 10,
+    "ry": 10,
+    "desc": "soul中底部菜单【星球】的坐标"
+  },
+  "menu_chat": {
+    "x": 753,
+    "y": 2075,
+    "rx": 10,
+    "ry": 10,
+    "desc": "soul中底部菜单【聊天】的坐标"
+  },
+  "soul_match": {
+    "x": 654,
+    "y": 1810,
+    "rx": 10,
+    "ry": 10,
+    "desc": "soul的【灵魂匹配】的坐标"
+  },
+  "main_activity": {
+    "name": "cn.soulapp.android/cn.soulapp.android.ui.main.MainActivity",
+    "desc": "soul的主页activity"
+  },
+  "soul_match_activity": {
+    "name": "cn.soulapp.android/cn.soulapp.android.ui.planet.robot.RobotActivity",
+    "desc": "灵魂匹配页面的activity"
+  },
+  "chat_window_activity": {
+    "name": "cn.soulapp.android/cn.soulapp.android.myim.ui.ConversationActivity",
+    "desc": "聊天窗口的activity"
+  },
+  "chat_input": {
+    "x": 190,
+    "y": 1980,
+    "rx": 10,
+    "ry": 10,
+    "desc": "模拟点击input的坐标唤起输入法"
+  },
+  "send_button": {
+    "x": 1002,
+    "y": 1937,
+    "rx": 10,
+    "ry": 10,
+    "desc": "发送按钮的坐标"
+  },
+  "delay": {
+    "value": "0.5",
+    "desc": "模拟操作之间的间隔时间"
+  },
+  "retry": {
+    "value": 10,
+    "desc": "在各种操作中的重试次数"
+  },
+  "default_word": {
+    "value": [
+      "你好！",
+      "哈喽",
+      "干嘛呢",
+      "在哪里呢"
+    ],
+    "desc": "主动打招呼时用语"
+  },
+  "is_debug":{
+    "value": 1,
+    "desc":"当值为1时是调试模式输入一些数据，为0屏蔽"
+  }
+  
+}

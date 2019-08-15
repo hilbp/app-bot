@@ -1,0 +1,62 @@
+{
+  "app_config": {
+    "package": "com.tencent.mobileqq"
+    
+  },
+  "menu_message": {
+    "x": 177,
+    "y": 2080,
+    "rx": 10,
+    "ry": 10,
+    "current_activity": "com.tencent.mobileqq/.activity.SplashActivity",
+    "current_fragment": "",
+    "expect_activity": "",
+    "expect_fragment": "",
+    "desc": "底部菜单【消息】"
+  },
+  "one_chat": {
+    "x": 600,
+    "y": 425,
+    "rx": 10,
+    "ry": 10,
+    "desc": "特定联系人在会话窗口显示的坐标"
+  },
+  "main_activity": {
+    "name": "com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity",
+    "desc": "qq的主页activity"
+  },
+  "chat_input": {
+    "x": 141,
+    "y": 1980,
+    "rx": 10,
+    "ry": 10,
+    "desc": "模拟点击input的坐标唤起输入法"
+  },
+  "send_button": {
+    "x": 981,
+    "y": 1921,
+    "rx": 10,
+    "ry": 10,
+    "desc": "发送按钮的坐标"
+  },
+  "delay": {
+    "value": "0",
+    "desc": "模拟操作之间的间隔时间"
+  },
+  "retry_count": {
+    "value": 10,
+    "desc": "在各种操作中的重试次数"
+  },
+  "default_word": {
+    "value": [
+      "~呵呵",
+      "呵呵"
+    ],
+    "desc": "主动打招呼时用语"
+  },
+  "is_debug":{
+    "value": 1,
+    "desc":"当值为1时是调试模式输入一些数据，为0屏蔽"
+  }
+  
+}

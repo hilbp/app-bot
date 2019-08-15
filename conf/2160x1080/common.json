@@ -1,0 +1,16 @@
+{
+  "ime_default_keyboard": {
+    "name": "com.sohu.inputmethod.sogou/.SogouIME",
+    "desc": "默认输入法"
+  },
+  "ime_adb_keyboard": {
+    "name": "com.android.adbkeyboard/.AdbIME",
+    "desc": "adb keyborad输入法"
+  },
+  "bae_config": {
+    "APP_ID": "16953366",
+    "API_KEY": "tv8BpgDWqX6PmRxtkqrxo5Fj",
+    "SECRET_KEY": "aKWFhIRmKMP4S9FGzERAdhED5wg2eEHV",
+    "desc": "百度云AI配置"
+  }
+}
