@@ -31,10 +31,23 @@
 * [ ] test2
 * [x] test3
   
+
 [插入链接示例](https://hilbp.com)
 
 插入本地图片示例
-![image](./tmp/image/test1.png)
+![image](./image/test1.png)
+<div align="center">
+<img src="./image/test1.png" width="100" height="auto">
+</div>
+
+
+<h2>2342</h2>
+
+换行符 : 一行结束时输入两个空格  
+换行符 : 一行结束时输入两个空格  
+换行符 : 一行结束时输入两个空格    
+
+--------
 
 行内代码`ctrl+D`示例
 

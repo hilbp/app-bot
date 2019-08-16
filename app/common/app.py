@@ -15,7 +15,6 @@ from PIL import Image
 sys.path.append('../')
 from common.auto_adb import auto_adb
 from common import config
-from common import function
 from common import screenshot
 from common import debug
 

@@ -27,10 +27,9 @@ def main():
                 "请输入序号选择要操作的app：\n"+
                 "> 1：soul\n"+
                 "> 2：微信\n"+
-                "> 3：QQ\n"+
                 "> 0: 退出程序\n"+
                 "=======================================\n"
-                "请输入[1/2/3/0]："
+                "请输入[1/2/0]："
             )
             key = int(key)
             if key == 1:
@@ -39,9 +38,6 @@ def main():
             elif key == 2:
                 from app.wechat import wechat
                 return wechat().run()
-            elif key == 3:
-                from app.qq import qq
-                return qq().run()
             elif key == 0:
                 exit('谢谢使用')
             else:
@@ -50,7 +46,7 @@ def main():
             print('按提示输入')
             continue
         except KeyboardInterrupt:
-            # print('已屏蔽Ctrl+C，输入0退出程序')
+            print('已屏蔽Ctrl+C，输入0退出程序')
             continue
         
 

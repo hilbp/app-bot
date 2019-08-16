@@ -7,15 +7,10 @@
     "name": "com.android.adbkeyboard/.AdbIME",
     "desc": "adb keyborad输入法"
   },
-  "bae_ai": {
+  "bae_config": {
     "APP_ID": "16953366",
     "API_KEY": "tv8BpgDWqX6PmRxtkqrxo5Fj",
     "SECRET_KEY": "aKWFhIRmKMP4S9FGzERAdhED5wg2eEHV",
     "desc": "百度云AI配置"
-  },
-  "qq_ai": {
-    "APP_ID": "2119891201",
-    "API_KEY": "QVsTZBOwEUl6vFhN",
-    "desc": "腾讯AI配置"
   }
 }

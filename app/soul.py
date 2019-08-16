@@ -15,7 +15,7 @@ import signal
 
 sys.path.append('./app')
 from common import config
-from common import function
+from common import comm
 from common import screenshot
 from common.app import app
 
@@ -101,7 +101,7 @@ class soul(app):
             # 4.截屏、提取文字并识别
             word = self.handle_img_ocr()
             # 5.调用机器人接口
-            content = function.get_reply_content(word)
+            content = comm.get_reply_content(word)
             # 6.回复消息
             if not self.send_message(content):
                 continue
@@ -272,7 +272,7 @@ class soul(app):
             return self.tap_menu('menu_chat')
         image = self.screen_to_img()
         # 文字识别
-        res = function.occ_basic_general(image)
+        res = comm.occ_basic_general(image)
         if res == False:
             exit(self.set_ime('ime_default_keyboard'))
         return res['words_result'][-2]['words']

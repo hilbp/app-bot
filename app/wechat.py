@@ -14,7 +14,7 @@ import json
 
 sys.path.append('./app')
 from common import config
-from common import function
+from common import comm
 from common import screenshot
 from common import debug
 from common.app import app
@@ -160,7 +160,7 @@ class wechat(app):
         image = self.screen_to_img()
         options = {}
         options["recognize_granularity"] = "big"
-        res = function.ocr_general(image, options)
+        res = comm.ocr_general(image, options)
         if res == False:
             exit(self.set_ime('ime_default_keyboard'))
 
@@ -216,7 +216,7 @@ class wechat(app):
 
         # 朋友圈截屏并调用接口文字识别
         image = self.screen_to_img('', self.sns_region)
-        res = function.occ_basic_general(image)
+        res = comm.occ_basic_general(image)
         if res == False:
             exit(self.set_ime('ime_default_keyboard'))
 
@@ -269,18 +269,10 @@ class wechat(app):
     # 从文件读取保存的状态数据
     def get_line_from_file(self, name):
         name = './tmp/{}'.format(name)
-        with open(name, 'r') as f:
-            content =  f.readlines()[-1]
+        with open(name, 'a+') as f:
+            f.seek(0,0)
+            content =  f.readlines()
         if not content:
             return False    
-        return json.loads(content)
+        return json.loads(content[-1])
     pass 
-    
-
-
-
-
-
-
-        
-

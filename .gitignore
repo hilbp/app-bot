@@ -4,10 +4,6 @@ __pycache__/
 *$py.class
 
 # custom
-qq-bot.py
-soul-bot.py
-wechat-bot.py
-sms-bot.py
 test.py
 wx_contacter.txt
 wx_notfriend.txt
