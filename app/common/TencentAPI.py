@@ -66,4 +66,11 @@ TencentAPI={
         'APIURL': 'https://api.ai.qq.com/fcgi-bin/ocr/ocr_creditcardocr',
         'APIPARA': 'image'
     },
+    # lbp add
+    "face_detectface":{
+        'APINAME':'人脸检测与分析',
+        'APIDESC': '识别上传图像上面的人脸信息',
+        'APIURL': 'https://api.ai.qq.com/fcgi-bin/face/face_detectface',
+        'APIPARA': 'image'
+    }
 }

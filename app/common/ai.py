@@ -15,7 +15,7 @@ config = config.open_accordant_config('common')
 def qq_ai_set():
     APPID = config['qq_ai']['APP_ID']
     APPKEY = config['qq_ai']['API_KEY']
-    return (APPID, APPKEY)
+    return APPID, APPKEY
 
 # 腾讯通用ocr
 def qq_orc_general(image):
@@ -28,6 +28,22 @@ def qq_orc_general(image):
     resp = requests.post(url, data=Req_Dict)
     # TODO:
     print(resp.json())
+
+# 腾讯人脸检测与分析
+def qq_face_detectface():
+    path = './tmp/optimized.png'
+    APPID, APPKEY = qq_ai_set()
+    tx= TencentAPIMsg(APPID, APPKEY)
+    req_dict = {}
+    req_dict['mode'] = 0
+    req_dict['image'] = tx.get_img_base64str(path)
+    url = TencentAPI.TencentAPI['face_detectface']['APIURL']
+    tx.init_req_dict(req_dict = req_dict)
+    resp = requests.post(url, data = req_dict).json()
+    if (resp['ret'] == 0):
+        return resp['data']
+    print(resp['msg'])
+    return False
 
 #创建bae对象，尽量自己去申请APPID、APPKEY
 def create_bae():
