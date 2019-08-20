@@ -27,9 +27,10 @@ def main():
                 "请输入序号选择要操作的app：\n"+
                 "> 1：soul\n"+
                 "> 2：微信\n"+
+                "> 3: 抖音\n"+
                 "> 0: 退出程序\n"+
                 "=======================================\n"
-                "请输入[1/2/0]："
+                "请输入[1/2/3/0]："
             )
             key = int(key)
             if key == 1:
@@ -38,6 +39,9 @@ def main():
             elif key == 2:
                 from app.wechat import wechat
                 return wechat().run()
+            elif key == 3:
+                from app.doyin import doyin
+                return doyin().run()
             elif key == 0:
                 exit('谢谢使用')
             else:
