@@ -1,3 +1,10 @@
+> ## 🚀 本项目已升级为 [adb-bot](https://github.com/hilbp/adb-bot)
+>
+> app-bot 是早期的 Python 脚本原型。现已用 Java/Spring Boot 完整重写为 RPA 自动化平台,
+> 新增 AI 对话驱动、可视化流程编排、实时投屏、多设备群控等能力。
+>
+> **源码**: [github.com/hilbp/adb-bot](https://github.com/hilbp/adb-bot) ｜ **官网**: [adb-bot.hilbp.com](https://adb-bot.hilbp.com/)
+
 # app-bot
 优雅简约的安卓应用机器人，手机无需root，通过adb模拟人为操作，调用OCR接口处理交互。  
 <div align=center>
