@@ -4,6 +4,7 @@
 > 新增 AI 对话驱动、可视化流程编排、实时投屏、多设备群控等能力。
 >
 > **源码**: [github.com/hilbp/adb-bot](https://github.com/hilbp/adb-bot) ｜ **官网**: [adb-bot.hilbp.com](https://adb-bot.hilbp.com/?utm_source=github&utm_medium=app-bot&utm_campaign=readme)
+---
 
 # app-bot
 优雅简约的安卓应用机器人，手机无需root，通过adb模拟人为操作，调用OCR接口处理交互。  
